@@ -1,0 +1,15 @@
+Hangman is a word game in which computer will randomly select a word from the dictionary and player has 
+to guess it correctly in given number of turns. The word to be guessed is represented by row of underscores. 
+If the guessed letter is present is word, script will automatically be placed to correct places.
+
+--------------Rules to guess the word--------------
+
+1. Input single letter in one turn.
+2. Input should be in lowercase.
+3. Don’t use repeated letters.
+4. Turns will be decremented after every guess.
+
+-------------------Module Used---------------------
+
+1. import random
+2. from collections import Counter
